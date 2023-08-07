@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.task3;
 
 public class DaysInMonthPrinter {
     public void amountOfDays(int month) {
-        if (month > 13) {
+        if (month > 13 || month <= 0) {
             System.out.println("wrong number!");
         } else if (month == 4 || month == 6 || month == 9 || month == 11) {
             System.out.println(30);
