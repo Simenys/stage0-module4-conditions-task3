@@ -4,8 +4,7 @@ public class DaysInMonthPrinter {
     public void amountOfDays(int month) {
         if (month > 13) {
             System.out.println("wrong number!");
-        }
-        if (month == 4 || month == 6 || month == 9 || month == 11) {
+        } else if (month == 4 || month == 6 || month == 9 || month == 11) {
             System.out.println(30);
         }
         if (month == 2) {

@@ -3,13 +3,13 @@ package school.mjc.stage0.conditions.task3;
 public class SalaryCalculator {
     public void calculateSalary(int salary) {
         if (salary <= 10000) {
-            System.out.println(salary * 1.15 + salary);
+            System.out.println(salary * 0.85);
         }
         if (10000 < salary && salary <= 20000) {
-            System.out.println(salary * 1.18 + salary);
+            System.out.println(salary * 0.82);
         }
         if (salary > 20000) {
-            System.out.println(salary * 1.2 + salary);
+            System.out.println(salary * 0.8);
         } else {
             System.out.println("wrong input!");
         }
